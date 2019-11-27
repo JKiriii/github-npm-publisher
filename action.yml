@@ -1,0 +1,8 @@
+name: "GitHub NPM Publisher"
+description: "Publish a NodeJS Module to GitHub Packages"
+branding:
+  icon: "package"
+  color: "green"
+runs:
+  using: "docker"
+  image: "Dockerfile"
